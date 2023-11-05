@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide the scrollbar for IE, Edge, and Firefox */
+.custom-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Inside your styles.css (or any CSS file where you include Tailwind CSS) */
+@layer utilities {
+  /* You can add any other utility classes you need */
+  .custom-scrollbar {
+  }
+}
+
+.btn {
+  text-transform: inherit;
+}
+.bg_body {
+  background-image: url("https://wallpapercave.com/wp/wp4782124.jpg");
+  height: 46.4rem;
+}
